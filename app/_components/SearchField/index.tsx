@@ -30,7 +30,9 @@ function SearchFieldComponent() {
 }
 
 export default function SearchField() {
-  <Suspense>
-    <SearchFieldComponent />
-  </Suspense>;
+  return (
+    <Suspense>
+      <SearchFieldComponent />
+    </Suspense>
+  );
 }
